@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai tap 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="main-table">
+    <div class="header-bar">
+        <span class="header-title">HR Management</span>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Contact</a>
+        </nav>
+
+        <div class="search-box">
+            <input type="text" placeholder="Search...">
+            <button type="button">Search</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Employee</h2>
+        <button class="add-btn" type="button">+ Add</button>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Position</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Fatima Beatriz</td>
+                    <td>fatimabeatriz@gmail.com</td>
+                    <td>0985674321</td>
+                    <td>Staff</td>
+                    <td>
+                        <button class="edit-btn" type="button">Edit</button>
+                        <button class="delete-btn" type="button">Delete</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Gabriel Hanna</td>
+                    <td>gabrielhanna@gmail.com</td>
+                    <td>0353674231</td>
+                    <td>Staff</td>
+                    <td>
+                        <button class="edit-btn" type="button">Edit</button>
+                        <button class="delete-btn" type="button">Delete</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Charles Diya</td>
+                    <td>charlesdiya@gmail.com</td>
+                    <td>0347658833</td>
+                    <td>Staff</td>
+                    <td>
+                        <button class="edit-btn" type="button">Edit</button>
+                        <button class="delete-btn" type="button">Delete</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>Frank Lamdo</td>
+                    <td>franklamdo@gmail.com</td>
+                    <td>0975444768</td>
+                    <td>Manager</td>
+                    <td>
+                        <button class="edit-btn" type="button">Edit</button>
+                        <button class="delete-btn" type="button">Delete</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>5</td>
+                    <td>Louis Tom</td>
+                    <td>louistom@gmail.com</td>
+                    <td>0789568223</td>
+                    <td>Staff</td>
+                    <td>
+                        <button class="edit-btn" type="button">Edit</button>
+                        <button class="delete-btn" type="button">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span>New Employee</span>
+        </div>
+
+        <div class="modal-body">
+            <form action="#">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Phone</label>
+                        <input type="text" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Position</label>
+                        <select required>
+                            <option value="">-- Select Position --</option>
+                            <option>Staff</option>
+                            <option>Manager</option>
+                            <option>CEO</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <label>Sex</label>
+                    <label><input type="radio" name="sex"> Male</label>
+                    <label><input type="radio" name="sex"> Female</label>
+                </div>
+            </form>
+        </div>
+
+        <div class="modal-footer">
+            <button class="save-btn" type="button">Save</button>
+            <button class="cancel-btn" type="button">Cancel</button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

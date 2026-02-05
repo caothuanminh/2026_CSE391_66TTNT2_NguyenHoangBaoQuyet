@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f3f3;
+}
+
+.wrapper {
+    width: 720px;
+    margin: 20px auto;
+    background: #fff;
+    border: 2px solid #999;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.block {
+    margin-bottom: 25px;
+}
+
+.block h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 5px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    gap: 10px;
+    margin-bottom: 10px;
+    align-items: start;
+}
+
+.row input,
+.row select,
+.row textarea {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.captcha .code {
+    font-size: 22px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}

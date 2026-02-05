@@ -1,0 +1,198 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.main-table {
+    background: #fff;
+    border: 2px solid #2196f3;
+    border-radius: 3px; /* chỉnh nhẹ */
+    max-width: 1200px;
+    margin: 26px auto 0 auto; /* lệch nhẹ */
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.header-bar {
+    background: #222d36;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 15px 24px; /* chỉnh nhẹ */
+    gap: 24px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.header-title {
+    font-weight: bold;
+    font-size: 21px; /* chỉnh nhẹ */
+    margin-right: 32px;
+}
+
+.header-bar nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 18px;
+    font-size: 15.5px; /* chỉnh nhẹ */
+}
+
+.header-bar nav a:last-child {
+    margin-right: 0;
+}
+
+.search-box {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.search-box input {
+    padding: 6px 11px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 14.5px;
+}
+
+.search-box button {
+    padding: 6px 15px;
+    background: #222d36;
+    color: #fff;
+    border: 1px solid #222d36;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.search-box button:hover {
+    opacity: 0.9;
+}
+
+.container {
+    background: #fff;
+    padding: 30px 32px 24px 32px; /* chỉnh nhẹ */
+    box-sizing: border-box;
+}
+
+.container h2 {
+    margin-top: 0;
+    font-size: 27px; /* chỉnh nhẹ */
+    font-weight: 500;
+}
+
+.add-btn {
+    background: #2196f3;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 17px;
+    font-size: 15.5px;
+    float: right;
+    margin-bottom: 16px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.add-btn:hover {
+    opacity: 0.9;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    margin-top: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+th, td {
+    padding: 11px 10px; /* chỉnh nhẹ */
+    text-align: left;
+    border-bottom: 1px solid #eee;
+    font-size: 15.5px;
+}
+
+th {
+    background: #fafafa;
+    font-weight: 600;
+}
+
+.edit-btn {
+    background: #ffd600;
+    color: #222;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 15px;
+    margin-right: 6px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.delete-btn {
+    background: #ff5252;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 15px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+/* Modal styles */
+.modal {
+    width: 500px;
+    background: #fff;
+    border: 2px solid #2196f3;
+    border-radius: 4px;
+    margin: 42px auto 0 auto; /* chỉnh nhẹ */
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+.modal-header {
+    background: #1976d2;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 16.5px;
+    font-weight: 500;
+}
+
+.modal-body {
+    padding: 18px 20px 0 20px;
+}
+
+.form-row {
+    display: flex;
+    gap: 16px; /* chỉnh nhẹ */
+    margin-bottom: 14px;
+    align-items: center;
+}
+
+.form-group label {
+    margin-bottom: 4px;
+    font-size: 14.5px;
+}
+
+.form-group input,
+.form-group select {
+    padding: 7px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14.5px;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 4px 20px 10px 20px; /* chỉnh nhẹ */
+}
+
+.save-btn,
+.cancel-btn {
+    border-radius: 4px;
+    padding: 7px 17px;
+    font-size: 14.5px;
+    cursor: pointer;
+}
