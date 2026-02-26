@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    background: #eee;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 85%;
+    margin: 50px auto;
+    padding: 50px;
+    border: 3px solid #9cd3e6;
+    background: #f7f7f7;
+}
+
+h1 {
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+
+.main {
+    display: flex;
+    gap: 50px;
+}
+
+/* Cột trái */
+.left {
+    width: 35%;
+    background: #f0f0f0;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.left p {
+    color: #777;
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.author {
+    margin-top: 20px;
+}
+
+.author span {
+    color: #3b7ddd;
+    font-size: 13px;
+}
+
+/* Cột phải */
+.right {
+    width: 65%;
+    color: #777;
+    line-height: 1.8;
+    font-size: 14px;
+}
+
+.bold {
+    font-weight: bold;
+    color: #555;
+}
