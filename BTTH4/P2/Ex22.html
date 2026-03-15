@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Form đặt hàng</title>
+</head>
+
+<body>
+
+<h2>Đặt hàng</h2>
+
+<form id="orderForm">
+
+<p>Tên sản phẩm</p>
+<select id="product">
+<option value="">--Chọn--</option>
+<option value="ao">Áo</option>
+<option value="quan">Quần</option>
+</select>
+
+<p>Số lượng</p>
+<input type="number" id="quantity">
+
+<p>Địa chỉ giao hàng</p>
+<input id="address">
+
+<p>Thanh toán</p>
+<input type="radio" name="pay" value="cod"> COD
+<input type="radio" name="pay" value="bank"> Chuyển khoản
+
+<p>Tổng tiền: <span id="total">0</span> đ</p>
+
+<button type="submit">Đặt hàng</button>
+
+</form>
+
+<p id="message"></p>
+
+<script src="Ex22.js"></script>
+
+</body>
+</html>

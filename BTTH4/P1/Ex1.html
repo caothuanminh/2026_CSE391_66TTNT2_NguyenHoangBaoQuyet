@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Bảng điểm sinh viên</title>
+</head>
+
+<body>
+
+<h2>Bảng điểm sinh viên</h2>
+
+<input id="name" placeholder="Họ tên">
+<input id="score" type="number" placeholder="Điểm">
+<button id="addBtn">Thêm</button>
+
+<br><br>
+
+<input id="search" placeholder="Tìm tên sinh viên">
+
+<select id="filter">
+<option value="all">Tất cả</option>
+<option value="giỏi">Giỏi</option>
+<option value="khá">Khá</option>
+<option value="trung bình">Trung bình</option>
+<option value="yếu">Yếu</option>
+</select>
+
+<br><br>
+
+<table border="1">
+<thead>
+<tr>
+<th>STT</th>
+<th>Họ tên</th>
+<th id="sortScore">Điểm</th>
+<th>Xếp loại</th>
+<th>Xóa</th>
+</tr>
+</thead>
+
+<tbody id="tableBody"></tbody>
+</table>
+
+<p id="summary"></p>
+
+<script src="Ex1.js"></script>
+
+</body>
+</html> 
